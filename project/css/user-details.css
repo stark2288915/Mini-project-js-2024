@@ -9,11 +9,11 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    background-color: #02393f;
 }
 
 #aboutUser{
-    width: 90vw;
-    height: 90vh;
-    background-color: darkorange;
-    border-radius: 6%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #02393f;
 }

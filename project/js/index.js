@@ -10,7 +10,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             const idNameUser = document.createElement('p');
             idNameUser.classList.add('idNameUser');
-            idNameUser.innerText = `id:${user.id}  name:${user.name}`;
+            idNameUser.innerText = `${user.id}. ${user.name}`;
 
             const buttonShowUser = document.createElement('button');
             buttonShowUser.innerText = 'show details';
