@@ -5,10 +5,6 @@ const commentsBlock = document.getElementById('comments');
 const aboutPost = document.getElementById('aboutPost');
 
 
-console.log(post);
-
-//https://jsonplaceholder.typicode.com/posts/POST_ID/co
-
 for (const key in post) {
     const li = document.createElement('li');
     infoPost.appendChild(li);
