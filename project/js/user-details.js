@@ -12,9 +12,9 @@ function showUser (user) {
     for (const key in user) {
 
         if(typeof user[key] === 'object'){
-            const h3 = document.createElement('h3');
-            h3.innerText = key;
-            ul.appendChild(h3);
+            const h2 = document.createElement('h2');
+            h2.innerText = key;
+            ul.appendChild(h2);
 
             showUser(user[key]);
 
@@ -31,7 +31,6 @@ function showUser (user) {
 showUser(user);
 
 button.addEventListener('click', (ev) => {
-    //location.href = `post-details.html?posts=${user.id}`;
     ev.preventDefault();
     fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
         .then(posts => posts.json())
