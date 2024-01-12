@@ -3,6 +3,7 @@ const user =  JSON.parse(localUrl.searchParams.get('user'));
 
 const ul = document.getElementById('infoList');
 const button = document.getElementById('userPosts');
+const postsTitle = document.getElementById('postsTitle');
 
 console.log(user);
 
@@ -29,6 +30,28 @@ function showUser (user) {
 
 showUser(user);
 
-button.addEventListener('click', () => {
-    location.href = `post-details.html?posts=${user.id}`;
+button.addEventListener('click', (ev) => {
+    //location.href = `post-details.html?posts=${user.id}`;
+    ev.preventDefault();
+    fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
+        .then(posts => posts.json())
+        .then(posts => {
+            console.log(posts);
+
+            posts.forEach(post => {
+                const oneTitle = document.createElement('div');
+                const title = document.createElement('a');
+
+                title.innerText = post.title;
+                title.href = `post-details.html?post=${JSON.stringify(post)}`;
+
+                postsTitle.appendChild(oneTitle);
+                oneTitle.appendChild(title);
+
+            })
+
+        });
+
+
+
 })
