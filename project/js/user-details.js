@@ -2,6 +2,7 @@ const localUrl = new URL(location.href);
 const user =  JSON.parse(localUrl.searchParams.get('user'));
 
 const ul = document.getElementById('infoList');
+const button = document.getElementById('userPosts');
 
 console.log(user);
 
@@ -27,3 +28,7 @@ function showUser (user) {
 }
 
 showUser(user);
+
+button.addEventListener('click', () => {
+    location.href = `post-details.html?posts=${user.id}`;
+})
