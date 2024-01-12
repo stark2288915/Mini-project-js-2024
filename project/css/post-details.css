@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 body{
@@ -9,11 +10,21 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    background-color: #02393f;
 }
 
 #aboutPost{
     width: 90vw;
     height: 90vh;
-    background-color: darkorange;
-    border-radius: 6%;
+    background-color: #02393f;
+
+}
+ul{
+    width: 90vw;
+    height: 20vh;
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-right: 3%;
 }
