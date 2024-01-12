@@ -31,3 +31,42 @@ li{
 ul h2{
     color: #e71212;
 }
+
+.hide{
+    display: none;
+}
+
+#postsTitle{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+#postsTitle div{
+    background-color: #045a62;
+    margin: 1%;
+    border-radius: 10%;
+}
+a{
+    color: #98ffd0;
+}
+
+#forHide > h2{
+    color: #e71212;
+
+
+}
+
+#forHide{
+    margin-top: 5vw;
+
+}
+
+#userPosts{
+    background-color: pink;
+    border-radius: 15%;
+    padding: 1%;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}

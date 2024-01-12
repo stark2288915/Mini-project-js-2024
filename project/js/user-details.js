@@ -4,6 +4,8 @@ const user =  JSON.parse(localUrl.searchParams.get('user'));
 const ul = document.getElementById('infoList');
 const button = document.getElementById('userPosts');
 const postsTitle = document.getElementById('postsTitle');
+const forHide = document.getElementById('forHide');
+forHide.classList.add('hide');
 
 console.log(user);
 
@@ -29,27 +31,30 @@ function showUser (user) {
 }
 
 showUser(user);
+fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
+    .then(posts => posts.json())
+    .then(posts => {
+        console.log(posts);
+
+        posts.forEach(post => {
+            const oneTitle = document.createElement('div');
+            const title = document.createElement('a');
+
+            title.innerText = post.title;
+            title.href = `post-details.html?post=${JSON.stringify(post)}`;
+
+            postsTitle.appendChild(oneTitle);
+            oneTitle.appendChild(title);
+
+        })
+
+    });
+
 
 button.addEventListener('click', (ev) => {
     ev.preventDefault();
-    fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
-        .then(posts => posts.json())
-        .then(posts => {
-            console.log(posts);
+    forHide.classList.toggle('hide');
 
-            posts.forEach(post => {
-                const oneTitle = document.createElement('div');
-                const title = document.createElement('a');
-
-                title.innerText = post.title;
-                title.href = `post-details.html?post=${JSON.stringify(post)}`;
-
-                postsTitle.appendChild(oneTitle);
-                oneTitle.appendChild(title);
-
-            })
-
-        });
 
 
 
