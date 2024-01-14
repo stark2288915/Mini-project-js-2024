@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="febd36c8-f41e-43ab-8daf-acee668ea8d3" name="Changes" comment="dd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/user-details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-project-is-2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-project-js-2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Mini-project-js-2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Mini-project-js-2024" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +75,7 @@
       <workItem from="1705053495482" duration="8247000" />
       <workItem from="1705069491164" duration="14990000" />
       <workItem from="1705087104533" duration="1532000" />
-      <workItem from="1705243113836" duration="2853000" />
+      <workItem from="1705243113836" duration="3512000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1705055275678</created>
@@ -153,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705247337396</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="dd">
+      <created>1705248495599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705248495599</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
