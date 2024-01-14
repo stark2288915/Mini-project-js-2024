@@ -8,7 +8,7 @@ const aboutPost = document.getElementById('aboutPost');
 for (const key in post) {
     const li = document.createElement('li');
     infoPost.appendChild(li);
-    li.innerText = `${key}: ${post[key]}`;
+    li.innerHTML = `<span class="textPoint">${key}</span>: ${post[key]}`;
 }
 
 fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)

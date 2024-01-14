@@ -6,8 +6,6 @@
 body{
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     background-color: #02393f;
 }
@@ -71,4 +69,8 @@ a{
     position: absolute;
     top: 90%;
     left: 45%;
+}
+
+.textPoint{
+    color: rgb(197, 181, 13);
 }

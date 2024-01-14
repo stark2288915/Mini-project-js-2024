@@ -7,8 +7,6 @@
 body{
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     background-color: #02393f;
 }
@@ -45,4 +43,8 @@ h2{
     color: #98ffd0;
     padding: 1%;
     border-radius: 10%;
+}
+
+.textPoint{
+    color: rgb(197, 181, 13);
 }

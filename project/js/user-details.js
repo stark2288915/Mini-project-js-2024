@@ -22,7 +22,7 @@ function showUser (user) {
 
         }else{
             const li = document.createElement('li');
-            li.innerText = `${key}: ${user[key]}`;
+            li.innerHTML = `<span class="textPoint">${key}</span>: ${user[key]}`;
             ul.appendChild(li);
         }
 
