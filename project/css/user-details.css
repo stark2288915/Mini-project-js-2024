@@ -81,6 +81,10 @@ a{
     transform: translate3d(0, 2px, 0);
     transition: 0.6ms;
 }
+a:hover{
+    color: #000704;
+    transition: 0.3ms;
+}
 
 .textPoint{
     color: rgb(197, 181, 13);
