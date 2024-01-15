@@ -3,9 +3,6 @@
     padding: 0;
 }
 body{
-    /*justify-content: center;
-    align-items: center;
-    display: flex;*/
     background-color: #02393f;
 }
 h2{
@@ -37,9 +34,26 @@ h2{
 }
 
 button{
-    background-color: pink;
-    padding: 1%;
-    border-radius: 15%;
+    padding: 3%;
+    font-family: cursive;
+    background-color: #1d1d5e;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0);
+}
+
+button:active {
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    transform: translate3d(0, -1px, 0);
+    transition: 0.7ms;
+
+}
+
+button:hover {
+    background-color: #1f1f46;
+    transform: translate3d(0, 2px, 0);
+    transition: 0.6ms;
 }
 
 .textPoint{
