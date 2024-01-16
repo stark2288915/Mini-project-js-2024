@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febd36c8-f41e-43ab-8daf-acee668ea8d3" name="Changes" comment="dd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/post-details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/css/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/css/user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/user-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/js/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/js/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\itellijProjects\Mini-project-is-2024" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +87,7 @@
       <workItem from="1705243113836" duration="3755000" />
       <workItem from="1705345387445" duration="4817000" />
       <workItem from="1705431411342" duration="1392000" />
-      <workItem from="1705433902903" duration="2127000" />
+      <workItem from="1705433902903" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1705055275678</created>
@@ -225,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705349988289</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="dd">
+      <created>1705436094460</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1705436094460</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
