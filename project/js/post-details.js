@@ -14,10 +14,20 @@ for (const key in post) {
 fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
     .then(comments => comments.json())
     .then(comments => {
-        console.log(comments)
+        console.log(comments);
         comments.forEach(comment => {
             const commentBlock = document.createElement('div');
+            const ulComments = document.createElement('ul');
             commentsBlock.appendChild(commentBlock);
-            commentBlock.innerText = comment.body;
+
+            commentBlock.appendChild(ulComments);
+            const separateComments = comment.body.split("\n");
+
+            separateComments.forEach(comm => {
+                const li = document.createElement('li');
+                ulComments.appendChild(li);
+                li.innerText = comm;
+            })
+
         })
     });

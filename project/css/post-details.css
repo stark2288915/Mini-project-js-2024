@@ -17,12 +17,12 @@ body{
     background-color: #02393f;
 
 }
-ul{
+#infoPost{
     display: contents;
     list-style-type: none;
     margin: 9%;
 }
-ul li{
+#infoPost li{
     margin: 1% 0;
     color: #98ffd0;
 
@@ -47,4 +47,8 @@ h2{
 
 .textPoint{
     color: rgb(197, 181, 13);
+}
+
+#comments div ul{
+    padding: 2% 6%;
 }
